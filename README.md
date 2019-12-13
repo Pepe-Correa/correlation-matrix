@@ -1,10 +1,12 @@
-# Correlation matrix with significant code
-Function to get a table of correlation coefficients, *r* (%), between a set of variables with significant codes (*p* values).
+# Correlation matrix with significance codes
+Function to get a table of correlation coefficients, *r* (%), between a set of variables with significance codes (*p* values).
 
 ```R
 source("corr_matrix.R")
 corr_matrix(mtcars)
 ```
+
+Results:
 ```R
 $`Significance codes (p values)`
 [1] "Signif. codes: <0.001 '***'; 0.001-0.01 '**'; 0.01-0.05 '*'; > 0.05 'n.s.' (non-significant)"
