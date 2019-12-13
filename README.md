@@ -21,7 +21,7 @@ corr_matrix(mtcars)
    </table>
 
 
-To export the results:
+To export results:
 ```R
 result <- corr_matrix(mtcars)[[2]]
 write.csv(x = result, file = "result.csv")
