@@ -20,6 +20,8 @@ corr_matrix(mtcars)
   <tr> <td align="right"> carb </td> <td> -55.093 ** </td> <td> 52.699 ** </td> <td> 39.498 * </td> <td> 74.981 *** </td> <td> -9.079 n.s. </td> <td> 42.761 * </td> <td> -65.625 *** </td> <td> -56.961 *** </td> <td> 5.753 n.s. </td> <td> 27.407 n.s. </td> </tr>
    </table>
 
+###### 'Significance codes (p values)'
+###### [1] "Signif. codes: <0.001 '***'; 0.001-0.01 '**'; 0.01-0.05 '*'; > 0.05 'n.s.' (non-significant)"
 
 To export results:
 ```R
